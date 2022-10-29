@@ -10,10 +10,12 @@ def addition(l):
     for i in l:
         sum=sum+i
     return sum
-l=[8, 2, 3, 0, 7]
+l=(8, 2, 3, 0, 7)
 print (addition(l))
 
 
 
-
-
+def addition(l):
+    return sum(l)
+l=(8, 2, 3, 0, 7)
+print (addition(l))
