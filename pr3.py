@@ -17,7 +17,7 @@ def count_upper_lower(n):
     print("No. of Lower case characters :",c_lower)
     return ''
 n=input("Enter a string ")
-print(count_upper_lower())
+print(count_upper_lower(n))
 
 # 2nd approach
 def count_upper_lower():
